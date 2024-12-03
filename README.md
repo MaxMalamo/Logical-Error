@@ -1,3 +1,10 @@
+# Logical-Error 
+---------------------ISSUE------------------------------
+The problem is that the if-statement checks if the number in the array is less than max. This makes it keep replacing max with smaller numbers instead of finding the biggest number.
+
+--------------------FIX-----------------------------------
+I fixed it by making the if-statement check if the number in the array is greater than max. This makes it only update max when a larger number is found.
+
 # Logical-Error 2
 --------------------ISSUE---------------------------------
 The problem is that the if-statement checks if age is over 18. It would work if we were only checking for 18 and not 30 and 50 becasue if the age is over 18 it prints out "over 18" but 30 is also over 18 so it prints out "over 18" again and same for 50.
@@ -13,3 +20,4 @@ The issue is that there was a for loop, the for loop doesent loop the numbers of
 
 --------------------FIX---------------------------------
 This was fixed by using the foreach loop instead. The foreach loop takes the numbers in the array.
+
